@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Link from "next/link";
+import link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +12,13 @@ export default function Home() {
         <link rel="icon" href="/myFavicon.ico" />
       </Head>
       <header>
-        
+      <nav>
+        <ul>
+          <li><Link></Link></li>
+          <li><Link></Link></li>
+          <li><Link></Link></li>
+        </ul>
+      </nav>
       </header>
       <main className="bg-slate-600 min-h-screen">
         <div className="bg-red-600">hello world</div>
